@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="goods_db@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
+    <root id="1">
+      <ServerVersion>11.8</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="deliverydb">
+      <ObjectId>16384</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="fd_app_backend">
+      <ObjectId>34430</ObjectId>
+      <Owner>vladimir</Owner>
+    </database>
+    <database id="4" parent="1" name="fd_todo_db">
+      <ObjectId>25684</ObjectId>
+      <Owner>vladimir</Owner>
+    </database>
+    <database id="5" parent="1" name="fe_test">
+      <ObjectId>16391</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="6" parent="1" name="fe_todo_db">
+      <ObjectId>25707</ObjectId>
+      <Owner>tim</Owner>
+    </database>
+    <database id="7" parent="1" name="goods_db">
+      <ObjectId>59776</ObjectId>
+      <Owner>nastya_p</Owner>
+      <IntrospectionStateNumber>2151</IntrospectionStateNumber>
+      <Current>1</Current>
+    </database>
+    <database id="8" parent="1" name="norma_db">
+      <ObjectId>16848</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="9" parent="1" name="normalization_db">
+      <ObjectId>17075</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="10" parent="1" name="odnofreshniki_db">
+      <ObjectId>51154</ObjectId>
+      <Owner>vladimir</Owner>
+    </database>
+    <database id="11" parent="1" name="pizza">
+      <ObjectId>59348</ObjectId>
+      <Owner>nastya</Owner>
+    </database>
+    <database id="12" parent="1" name="pizzas2">
+      <ObjectId>17232</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="13" parent="1" name="post_db">
+      <ObjectId>16759</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="14" parent="1" name="postgres">
+      <ObjectId>13128</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="15" parent="1" name="posts_likes">
+      <ObjectId>16672</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="16" parent="1" name="sequelize_learn">
+      <ObjectId>59525</ObjectId>
+      <Owner>nastya</Owner>
+    </database>
+    <database id="17" parent="1" name="sequelizeleran">
+      <ObjectId>59526</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="18" parent="1" name="server_db">
+      <ObjectId>17649</ObjectId>
+      <Owner>sequelize</Owner>
+    </database>
+    <database id="19" parent="1" name="students">
+      <ObjectId>59635</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="20" parent="1" name="testserver">
+      <ObjectId>17492</ObjectId>
+      <Owner>server</Owner>
+    </database>
+    <database id="21" parent="1" name="testserver2">
+      <ObjectId>17573</ObjectId>
+      <Owner>server</Owner>
+    </database>
+    <database id="22" parent="1" name="todo_db">
+      <ObjectId>59684</ObjectId>
+      <Owner>nastya_p</Owner>
+    </database>
+    <role id="23" parent="1" name="nastya">
+      <ObjectId>59347</ObjectId>
+      <CanLogin>1</CanLogin>
+    </role>
+    <role id="24" parent="1" name="nastya_p">
+      <ObjectId>59683</ObjectId>
+      <CanLogin>1</CanLogin>
+    </role>
+    <role id="25" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+    </role>
+    <role id="26" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+    </role>
+    <role id="27" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="28" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="29" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+    </role>
+    <role id="30" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="31" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="32" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="33" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="34" parent="1" name="sequelize">
+      <ObjectId>17648</ObjectId>
+      <CanLogin>1</CanLogin>
+    </role>
+    <role id="35" parent="1" name="server">
+      <ObjectId>17491</ObjectId>
+      <CanLogin>1</CanLogin>
+    </role>
+    <role id="36" parent="1" name="test_2">
+      <ObjectId>59346</ObjectId>
+    </role>
+    <role id="37" parent="1" name="tim">
+      <ObjectId>25706</ObjectId>
+      <CanLogin>1</CanLogin>
+    </role>
+    <role id="38" parent="1" name="vladimir">
+      <ObjectId>25683</ObjectId>
+      <CanLogin>1</CanLogin>
+    </role>
+    <schema id="39" parent="7" name="information_schema">
+      <ObjectId>12832</ObjectId>
+      <StateNumber>365</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="40" parent="7" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>358</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="41" parent="7" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>359</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>2152</IntrospectionStateNumber>
+      <Current>1</Current>
+    </schema>
+    <access-method id="42" parent="7" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="43" parent="7" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="44" parent="7" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="45" parent="7" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="46" parent="7" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="47" parent="7" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="48" parent="7" name="plpgsql">
+      <ObjectId>13114</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>518</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+  </database-model>
+</dataSource>
